@@ -2,28 +2,25 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  background: darkslategrey;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  max-width: 800px;
-  max-height: 800px;
+  width: 800px;
+  height: 800px;
+  border: black solid 8px;
 }
 
 .row {
-  align-self:center;
   display: flex;
+  flex: 1 1 50px;
 }
 
 .col{
-  flex: 1;
-  min-width: 50px;
-  min-height: 50px;
-  background: black;
-  flex-wrap: wrap;
-}
-
-button {
-  flex:1;
+  flex: 1 1 50px;
+  background: #5c5c5c;
 }
 
